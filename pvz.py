@@ -5,7 +5,7 @@ from airtest.core.api import *
 
 # auto_setup(__file__)
 
-init_device(platform="IOS", uuid="http://192.168.124.16:8100")
+init_device(platform="IOS", uuid="http://192.168.1.16:8100")
 
 
 from poco.drivers.ios import iosPoco
